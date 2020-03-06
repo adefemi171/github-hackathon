@@ -1,0 +1,33 @@
+name: "Hello Actions"
+
+description: "Testing Ubuntu Image"
+
+author: "adefemi171@github.com"
+
+
+
+inputs:
+
+  MY_NAME:
+
+    description: "Testing out Ubuntu Image"
+
+    required: true
+
+    default: "World"
+
+
+
+runs:
+
+  using: "docker"
+
+  image: "Ubuntu"
+
+
+
+branding:
+
+  icon: "mic"
+
+  color: "purple"
