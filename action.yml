@@ -1,6 +1,6 @@
 name: "Hello Actions"
 
-description: "Testing Ubuntu Image"
+description: "Testing alpine image"
 
 author: "adefemi171@github.com"
 
@@ -10,7 +10,7 @@ inputs:
 
   MY_NAME:
 
-    description: "Testing out Ubuntu Image"
+    description: "Testing out alpine image"
 
     required: true
 
@@ -22,7 +22,7 @@ runs:
 
   using: "docker"
 
-  image: "Ubuntu"
+  image: "Dockerfile"
 
 
 
